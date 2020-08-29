@@ -82,7 +82,7 @@ Sub stockTrackerHW()
                 End If
                 
                 'formatting the decimals to two places only
-                Cells(tickerStart, 11).NumberFormat = "0.00%"
+                Sheet.Cells(tickerStart, 11).NumberFormat = "0.00%"
                     
                 'update the startingValue
                 startingValue = Sheet.Cells(i + 1, 3)
